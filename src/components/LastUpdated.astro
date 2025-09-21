@@ -1,0 +1,28 @@
+---
+interface GameData {
+  game: string;
+  last_updated_utc: string;
+}
+
+const dataModules = import.meta.glob('../../data/*.json', { eager: true, import: 'default' }) as Record<string, GameData>;
+const datasets = Object.values(dataModules);
+const latest = datasets.reduce<GameData | null>((acc, item) => {
+  if (!item?.last_updated_utc) return acc;
+  if (!acc) return item;
+  return new Date(item.last_updated_utc) > new Date(acc.last_updated_utc) ? item : acc;
+}, null);
+---
+<section class="last-updated" aria-live="polite">
+  <div class="container">
+    {latest ? (
+      <p>
+        Latest refresh:
+        <time datetime={latest.last_updated_utc}>{new Date(latest.last_updated_utc).toLocaleString()}</time>
+        {' - '}
+        Source game: <strong>{latest.game}</strong>
+      </p>
+    ) : (
+      <p>Data refresh pending. JSON files will populate on the next GitHub Action run.</p>
+    )}
+  </div>
+</section>

@@ -1,0 +1,37 @@
+---
+import MainLayout from '../layouts/MainLayout.astro';
+import NavBar from '../components/NavBar.astro';
+import Footer from '../components/Footer.astro';
+const pageTitle = 'Lottery Lab | Responsible play';
+---
+<MainLayout title={pageTitle} description="Resources and guidelines for responsible lottery participation.">
+  <fragment slot="header">
+    <NavBar />
+  </fragment>
+  <article class="container" aria-labelledby="responsible-title">
+    <h1 id="responsible-title">Play responsibly</h1>
+    <section>
+      <h2>Age gate</h2>
+      <p>You must be 18 or older to participate in UK lottery games. Keep this site away from minors.</p>
+    </section>
+    <section>
+      <h2>Know your limits</h2>
+      <ul>
+        <li>Set a firm budget before buying tickets and stick to it.</li>
+        <li>Track your play and take breaks often to avoid chasing losses.</li>
+        <li>Remember that lottery tickets are entertainment, not an investment.</li>
+      </ul>
+    </section>
+    <section>
+      <h2>Get help</h2>
+      <ul>
+        <li><a href="https://www.begambleaware.org" rel="noopener noreferrer">BeGambleAware</a></li>
+        <li><a href="https://www.gamcare.org.uk" rel="noopener noreferrer">GamCare</a></li>
+        <li><a href="https://www.ygam.org" rel="noopener noreferrer">YGAM</a></li>
+      </ul>
+    </section>
+  </article>
+  <fragment slot="footer">
+    <Footer />
+  </fragment>
+</MainLayout>

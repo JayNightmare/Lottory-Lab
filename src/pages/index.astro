@@ -1,0 +1,35 @@
+---
+import MainLayout from '../layouts/MainLayout.astro';
+import NavBar from '../components/NavBar.astro';
+import Hero from '../components/Hero.astro';
+import Disclaimer from '../components/Disclaimer.astro';
+import LastUpdated from '../components/LastUpdated.astro';
+import Footer from '../components/Footer.astro';
+const pageTitle = 'Lottery Lab | Explore lottery data and fair RNG';
+---
+<MainLayout title={pageTitle} description="Static lottery lab with provable RNG, results explorer, and EV tools.">
+  <fragment slot="header">
+    <NavBar />
+  </fragment>
+  <Hero />
+  <section class="container section-cards" aria-labelledby="home-sections">
+    <h2 id="home-sections" class="sr-only">Highlights</h2>
+    <article class="card">
+      <h3>How it works</h3>
+      <p>Astro builds static pages. React islands power charts, tables, and RNG entirely in your browser.</p>
+    </article>
+    <article class="card">
+      <h3>Provable RNG</h3>
+      <p>Every random line is generated through a commit-reveal flow you can verify with SHA-256.</p>
+    </article>
+    <article class="card">
+      <h3>Responsible play</h3>
+      <p>We emphasize odds, house edge, and links to support so you stay in control of your play.</p>
+    </article>
+  </section>
+  <LastUpdated />
+  <Disclaimer />
+  <fragment slot="footer">
+    <Footer />
+  </fragment>
+</MainLayout>

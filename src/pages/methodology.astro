@@ -1,0 +1,41 @@
+---
+import MainLayout from '../layouts/MainLayout.astro';
+import NavBar from '../components/NavBar.astro';
+import Footer from '../components/Footer.astro';
+const pageTitle = 'Lottery Lab | Methodology';
+---
+<MainLayout title={pageTitle} description="Our data sourcing, RNG design, and project guardrails.">
+  <fragment slot="header">
+    <NavBar />
+  </fragment>
+  <article class="container" aria-labelledby="methodology-title">
+    <h1 id="methodology-title">Methodology</h1>
+    <section>
+      <h2>Commit-reveal RNG</h2>
+      <p>
+        Random numbers originate from the browser's Web Crypto API. When you click new commit we record a timestamp,
+        derive a 32-byte seed, and publish the SHA-256 hash immediately. Reveal later shows the seed and regenerates
+        numbers using deterministic hashing so anyone can verify the hash offline.
+      </p>
+    </section>
+    <section>
+      <h2>Data sourcing</h2>
+      <p>
+        JSON files under <code>/data</code> are committed to the repository. A scheduled GitHub Action fetches draw data
+        from official or publicly accessible sources, validates structure with Zod, and commits updates only when values
+        change.
+      </p>
+    </section>
+    <section>
+      <h2>Limitations</h2>
+      <ul>
+        <li>Charts show descriptive statistics only; they do not predict future draws.</li>
+        <li>No guarantees that third-party data sources are error-free. Always verify with official results.</li>
+        <li>We provide no ticket sales, syndicates, or financial advice.</li>
+      </ul>
+    </section>
+  </article>
+  <fragment slot="footer">
+    <Footer />
+  </fragment>
+</MainLayout>

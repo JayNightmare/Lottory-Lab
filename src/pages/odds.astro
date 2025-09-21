@@ -1,0 +1,25 @@
+---
+import MainLayout from '../layouts/MainLayout.astro';
+import NavBar from '../components/NavBar.astro';
+import Footer from '../components/Footer.astro';
+import EVCalculator from '../components/EVCalculator.tsx';
+const pageTitle = 'Lottery Lab | Odds & EV tutor';
+---
+<MainLayout title={pageTitle} description="Model expected value of lottery play with adjustable jackpot and tier inputs.">
+  <fragment slot="header">
+    <NavBar />
+  </fragment>
+  <section class="container">
+    <EVCalculator client:load />
+    <article class="card" aria-labelledby="ev-notice">
+      <h2 id="ev-notice">Use EV as a learning signal</h2>
+      <p>
+        Expected value is the average outcome over countless plays; it rarely reflects what happens in a single draw. Use
+        this tool to understand how small probabilities and prize splits impact value, not as a go signal to play.
+      </p>
+    </article>
+  </section>
+  <fragment slot="footer">
+    <Footer />
+  </fragment>
+</MainLayout>

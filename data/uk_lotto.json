@@ -1,0 +1,22 @@
+{
+  "game": "uk_lotto",
+  "last_updated_utc": "2025-09-21T00:00:00Z",
+  "draws": [
+    {
+      "date": "2025-09-18",
+      "numbers": [3, 9, 14, 27, 31, 45],
+      "bonus": 12,
+      "jackpot": 7200000,
+      "rollover": true,
+      "source_url": "https://www.national-lottery.co.uk/results/lotto/draw-history"
+    },
+    {
+      "date": "2025-09-14",
+      "numbers": [4, 18, 22, 28, 39, 52],
+      "bonus": 7,
+      "jackpot": 4100000,
+      "rollover": false,
+      "source_url": "https://www.national-lottery.co.uk/results/lotto/draw-history"
+    }
+  ]
+}

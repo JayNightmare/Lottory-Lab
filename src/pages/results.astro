@@ -1,0 +1,35 @@
+---
+import MainLayout from '../layouts/MainLayout.astro';
+import NavBar from '../components/NavBar.astro';
+import Footer from '../components/Footer.astro';
+import ResultsExplorer from '../components/ResultsExplorer.tsx';
+
+interface GameDataset {
+  game: string;
+  last_updated_utc: string;
+  draws: Array<{
+    date: string;
+    numbers: number[];
+    bonus?: number | null;
+    jackpot?: number;
+    rollover?: boolean;
+    source_url?: string;
+  }>;
+}
+
+const dataModules = import.meta.glob('../../data/*.json', { eager: true, import: 'default' }) as Record<string, GameDataset>;
+const datasets = Object.values(dataModules);
+
+const pageTitle = 'Lottery Lab | Results Explorer';
+---
+<MainLayout title={pageTitle} description="Browse lottery results, apply filters, and visualize hot/cold trends.">
+  <fragment slot="header">
+    <NavBar />
+  </fragment>
+  <section class="container">
+    <ResultsExplorer client:load datasets={datasets} />
+  </section>
+  <fragment slot="footer">
+    <Footer />
+  </fragment>
+</MainLayout>

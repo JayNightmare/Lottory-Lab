@@ -1,0 +1,38 @@
+---
+const links = [
+  { href: '/', label: 'Home' },
+  { href: '/results', label: 'Results' },
+  { href: '/generator', label: 'Generator' },
+  { href: '/odds', label: 'Odds & EV' },
+  { href: '/methodology', label: 'Methodology' },
+  { href: '/responsible', label: 'Responsible Play' }
+];
+---
+<header class="site-header">
+  <div class="container">
+    <a class="brand" href="/">
+      <span class="brand-logo" aria-hidden="true">LL</span>
+      <span class="brand-text">Lottery Lab</span>
+    </a>
+    <nav aria-label="Main navigation">
+      <button class="nav-toggle" aria-expanded="false" aria-controls="primary-nav">Menu</button>
+      <ul id="primary-nav" class="nav-list">
+        {links.map((link) => (
+          <li><a href={link.href}>{link.label}</a></li>
+        ))}
+      </ul>
+    </nav>
+  </div>
+</header>
+<script is:inline>
+  document.addEventListener('DOMContentLoaded', () => {
+    const toggle = document.querySelector('.nav-toggle');
+    const nav = document.getElementById('primary-nav');
+    if (!toggle || !nav) return;
+    toggle.addEventListener('click', () => {
+      const expanded = toggle.getAttribute('aria-expanded') === 'true';
+      toggle.setAttribute('aria-expanded', String(!expanded));
+      nav.classList.toggle('open', !expanded);
+    });
+  });
+</script>

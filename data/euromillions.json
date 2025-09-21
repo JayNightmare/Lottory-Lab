@@ -1,0 +1,22 @@
+{
+  "game": "euromillions",
+  "last_updated_utc": "2025-09-20T23:30:00Z",
+  "draws": [
+    {
+      "date": "2025-09-19",
+      "numbers": [5, 12, 23, 34, 48],
+      "bonus": null,
+      "jackpot": 43000000,
+      "rollover": true,
+      "source_url": "https://www.national-lottery.co.uk/results/euromillions/draw-history"
+    },
+    {
+      "date": "2025-09-16",
+      "numbers": [2, 11, 19, 44, 50],
+      "bonus": null,
+      "jackpot": 37000000,
+      "rollover": false,
+      "source_url": "https://www.national-lottery.co.uk/results/euromillions/draw-history"
+    }
+  ]
+}

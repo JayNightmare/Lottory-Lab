@@ -1,0 +1,53 @@
+{
+  "name": "lottery-lab",
+  "version": "0.1.0",
+  "description": "Lottery Lab – static Astro site with client-side tools for lottery analysis.",
+  "type": "module",
+  "scripts": {
+    "dev": "astro dev",
+    "build": "astro build",
+    "preview": "astro preview",
+    "check": "tsc --noEmit",
+    "test:unit": "vitest run",
+    "test:watch": "vitest",
+    "test:e2e": "playwright test",
+    "lint": "astro check && tsc --noEmit",
+    "validate:data": "tsx scripts/validate-data.ts"
+  },
+  "keywords": [
+    "astro",
+    "lottery",
+    "github-pages",
+    "react"
+  ],
+  "author": "Lottery Lab",
+  "license": "MIT",
+  "engines": {
+    "node": ">=18.17.0"
+  },
+  "dependencies": {
+    "@astrojs/react": "^3.0.0",
+    "@astrojs/sitemap": "^3.0.0",
+    "astro": "^4.0.0",
+    "classnames": "^2.3.2",
+    "marked": "^9.0.0",
+    "react": "^18.3.0",
+    "react-dom": "^18.3.0",
+    "react-window": "^1.8.9",
+    "recharts": "^2.11.0",
+    "zod": "^3.22.0"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.48.0",
+    "@types/node": "^20.11.0",
+    "@types/react": "^18.2.42",
+    "@types/react-dom": "^18.2.17",
+    "@typescript-eslint/eslint-plugin": "^7.0.0",
+    "@typescript-eslint/parser": "^7.0.0",
+    "jsdom": "^27.0.0",
+    "sass": "^1.70.0",
+    "tsx": "^4.7.0",
+    "typescript": "^5.4.0",
+    "vitest": "^1.2.0"
+  }
+}

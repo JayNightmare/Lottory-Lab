@@ -1,0 +1,22 @@
+{
+  "game": "thunderball",
+  "last_updated_utc": "2025-09-20T20:15:00Z",
+  "draws": [
+    {
+      "date": "2025-09-20",
+      "numbers": [7, 15, 22, 28, 34],
+      "bonus": 9,
+      "jackpot": 500000,
+      "rollover": false,
+      "source_url": "https://www.national-lottery.co.uk/results/thunderball/draw-history"
+    },
+    {
+      "date": "2025-09-18",
+      "numbers": [1, 16, 18, 29, 37],
+      "bonus": 7,
+      "jackpot": 500000,
+      "rollover": false,
+      "source_url": "https://www.national-lottery.co.uk/results/thunderball/draw-history"
+    }
+  ]
+}

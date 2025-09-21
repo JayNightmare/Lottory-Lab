@@ -1,0 +1,28 @@
+---
+import MainLayout from '../layouts/MainLayout.astro';
+import NavBar from '../components/NavBar.astro';
+import Footer from '../components/Footer.astro';
+import NumberGenerator from '../components/NumberGenerator.tsx';
+const pageTitle = 'Lottery Lab | Provably random generator';
+---
+<MainLayout title={pageTitle} description="Generate lottery lines with a verifiable commit-reveal process.">
+  <fragment slot="header">
+    <NavBar />
+  </fragment>
+  <section class="container">
+    <NumberGenerator client:load />
+  </section>
+  <section class="disclaimer">
+    <div class="container">
+      <h2>How verification works</h2>
+      <ol>
+        <li>Generate a commit to get the SHA-256 hash ahead of time.</li>
+        <li>Reveal when ready; numbers derive from the seed and remain client-side.</li>
+        <li>Re-hash the seed, timestamp, and game ID to confirm nothing changed.</li>
+      </ol>
+    </div>
+  </section>
+  <fragment slot="footer">
+    <Footer />
+  </fragment>
+</MainLayout>

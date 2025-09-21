@@ -1,0 +1,36 @@
+name: Harvest lottery results
+
+on:
+  schedule:
+    - cron: '0 */6 * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  harvest:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: pnpm/action-setup@v2
+        with:
+          version: 8
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 18
+          cache: 'pnpm'
+      - run: pnpm install --frozen-lockfile=false
+      - run: pnpm tsx scripts/harvest-results.ts
+      - run: pnpm validate:data
+      - name: Commit and push
+        run: |
+          if git diff --quiet; then
+            echo 'No changes to commit.'
+            exit 0
+          fi
+          git config user.name 'github-actions'
+          git config user.email 'github-actions@github.com'
+          git add data
+          git commit -m 'ci: update lottery datasets'
+          git push
