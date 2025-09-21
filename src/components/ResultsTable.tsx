@@ -8,6 +8,8 @@ export interface DrawRow {
   date: string;
   numbers: number[];
   bonus?: number | null;
+  extra_numbers?: number[];
+  extra_label?: string;
   jackpot?: number;
   rollover?: boolean;
   source_url?: string;
@@ -21,8 +23,12 @@ interface ResultsTableProps {
 const ROW_HEIGHT = 56;
 
 const formatJackpot = (value?: number) => {
-  if (typeof value !== 'number') return 'â€”';
-  return new Intl.NumberFormat('en-GB', { style: 'currency', currency: 'GBP', maximumFractionDigits: 0 }).format(value);
+  if (typeof value !== 'number') return '—';
+  return new Intl.NumberFormat('en-GB', {
+    style: 'currency',
+    currency: 'GBP',
+    maximumFractionDigits: 0
+  }).format(value);
 };
 
 const TableRow: FC<ListChildComponentProps<DrawRow[]>> = memo(({ index, style, data }) => {
@@ -41,6 +47,12 @@ const TableRow: FC<ListChildComponentProps<DrawRow[]>> = memo(({ index, style, d
       <span className="cell" role="cell">
         {row.numbers.join(', ')}
         {row.bonus != null && <span className="bonus"> +{row.bonus}</span>}
+        {row.extra_numbers?.length ? (
+          <span className="extras">
+            {row.extra_label ? `${row.extra_label}: ` : 'Extras: '}
+            {row.extra_numbers.join(', ')}
+          </span>
+        ) : null}
       </span>
       <span className="cell" role="cell">{formatJackpot(row.jackpot)}</span>
       <span className="cell" role="cell">{row.rollover ? 'Yes' : 'No'}</span>
@@ -50,7 +62,7 @@ const TableRow: FC<ListChildComponentProps<DrawRow[]>> = memo(({ index, style, d
             Verify
           </a>
         ) : (
-          'â€”'
+          '—'
         )}
       </span>
     </div>
@@ -100,4 +112,3 @@ export const ResultsTable: FC<ResultsTableProps> = ({ data, game }) => {
 };
 
 export default ResultsTable;
-

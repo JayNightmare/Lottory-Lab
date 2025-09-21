@@ -1,22 +1,994 @@
 {
   "game": "euromillions",
-  "last_updated_utc": "2025-09-20T23:30:00Z",
+  "last_updated_utc": "2025-09-21T01:30:14.670Z",
   "draws": [
     {
       "date": "2025-09-19",
-      "numbers": [5, 12, 23, 34, 48],
+      "numbers": [
+        8,
+        10,
+        26,
+        32,
+        42
+      ],
       "bonus": null,
-      "jackpot": 43000000,
-      "rollover": true,
-      "source_url": "https://www.national-lottery.co.uk/results/euromillions/draw-history"
+      "extra_numbers": [
+        9,
+        12
+      ],
+      "extra_label": "Lucky Stars",
+      "jackpot": 46564196,
+      "rollover": false,
+      "source_url": "https://www.national-lottery.co.uk/results/euromillions/draw-history/draw-details/1878"
     },
     {
       "date": "2025-09-16",
-      "numbers": [2, 11, 19, 44, 50],
+      "numbers": [
+        1,
+        9,
+        13,
+        35,
+        40
+      ],
       "bonus": null,
-      "jackpot": 37000000,
+      "extra_numbers": [
+        5,
+        6
+      ],
+      "extra_label": "Lucky Stars",
+      "jackpot": 34718425,
       "rollover": false,
-      "source_url": "https://www.national-lottery.co.uk/results/euromillions/draw-history"
+      "source_url": "https://www.national-lottery.co.uk/results/euromillions/draw-history/draw-details/1877"
+    },
+    {
+      "date": "2025-09-12",
+      "numbers": [
+        5,
+        10,
+        23,
+        31,
+        37
+      ],
+      "bonus": null,
+      "extra_numbers": [
+        3,
+        11
+      ],
+      "extra_label": "Lucky Stars",
+      "jackpot": 25768241,
+      "rollover": false,
+      "source_url": "https://www.national-lottery.co.uk/results/euromillions/draw-history/draw-details/1876"
+    },
+    {
+      "date": "2025-09-09",
+      "numbers": [
+        3,
+        13,
+        24,
+        39,
+        40
+      ],
+      "bonus": null,
+      "extra_numbers": [
+        2,
+        8
+      ],
+      "extra_label": "Lucky Stars",
+      "jackpot": 14732200,
+      "rollover": false,
+      "source_url": "https://www.national-lottery.co.uk/results/euromillions/draw-history/draw-details/1875"
+    },
+    {
+      "date": "2025-09-05",
+      "numbers": [
+        27,
+        30,
+        31,
+        41,
+        43
+      ],
+      "bonus": null,
+      "extra_numbers": [
+        5,
+        8
+      ],
+      "extra_label": "Lucky Stars",
+      "jackpot": 56681384,
+      "rollover": false,
+      "source_url": "https://www.national-lottery.co.uk/results/euromillions/draw-history/draw-details/1874"
+    },
+    {
+      "date": "2025-09-02",
+      "numbers": [
+        13,
+        30,
+        31,
+        32,
+        36
+      ],
+      "bonus": null,
+      "extra_numbers": [
+        1,
+        12
+      ],
+      "extra_label": "Lucky Stars",
+      "jackpot": 44408792,
+      "rollover": false,
+      "source_url": "https://www.national-lottery.co.uk/results/euromillions/draw-history/draw-details/1873"
+    },
+    {
+      "date": "2025-08-29",
+      "numbers": [
+        6,
+        9,
+        10,
+        13,
+        37
+      ],
+      "bonus": null,
+      "extra_numbers": [
+        1,
+        7
+      ],
+      "extra_label": "Lucky Stars",
+      "jackpot": 34757748,
+      "rollover": false,
+      "source_url": "https://www.national-lottery.co.uk/results/euromillions/draw-history/draw-details/1872"
+    },
+    {
+      "date": "2025-08-26",
+      "numbers": [
+        2,
+        14,
+        38,
+        42,
+        45
+      ],
+      "bonus": null,
+      "extra_numbers": [
+        10,
+        11
+      ],
+      "extra_label": "Lucky Stars",
+      "jackpot": 23177179,
+      "rollover": false,
+      "source_url": "https://www.national-lottery.co.uk/results/euromillions/draw-history/draw-details/1871"
+    },
+    {
+      "date": "2025-08-22",
+      "numbers": [
+        6,
+        9,
+        12,
+        30,
+        39
+      ],
+      "bonus": null,
+      "extra_numbers": [
+        4,
+        10
+      ],
+      "extra_label": "Lucky Stars",
+      "jackpot": 14745800,
+      "rollover": false,
+      "source_url": "https://www.national-lottery.co.uk/results/euromillions/draw-history/draw-details/1870"
+    },
+    {
+      "date": "2025-08-19",
+      "numbers": [
+        24,
+        31,
+        34,
+        41,
+        43
+      ],
+      "bonus": null,
+      "extra_numbers": [
+        6,
+        8
+      ],
+      "extra_label": "Lucky Stars",
+      "jackpot": 216150000,
+      "rollover": false,
+      "source_url": "https://www.national-lottery.co.uk/results/euromillions/draw-history/draw-details/1869"
+    },
+    {
+      "date": "2025-08-15",
+      "numbers": [
+        13,
+        30,
+        35,
+        36,
+        40
+      ],
+      "bonus": null,
+      "extra_numbers": [
+        2,
+        6
+      ],
+      "extra_label": "Lucky Stars",
+      "jackpot": 200645465,
+      "rollover": false,
+      "source_url": "https://www.national-lottery.co.uk/results/euromillions/draw-history/draw-details/1868"
+    },
+    {
+      "date": "2025-08-12",
+      "numbers": [
+        18,
+        28,
+        42,
+        46,
+        48
+      ],
+      "bonus": null,
+      "extra_numbers": [
+        3,
+        9
+      ],
+      "extra_label": "Lucky Stars",
+      "jackpot": 184536067,
+      "rollover": false,
+      "source_url": "https://www.national-lottery.co.uk/results/euromillions/draw-history/draw-details/1867"
+    },
+    {
+      "date": "2025-08-08",
+      "numbers": [
+        2,
+        12,
+        19,
+        34,
+        44
+      ],
+      "bonus": null,
+      "extra_numbers": [
+        6,
+        10
+      ],
+      "extra_label": "Lucky Stars",
+      "jackpot": 171118004,
+      "rollover": false,
+      "source_url": "https://www.national-lottery.co.uk/results/euromillions/draw-history/draw-details/1866"
+    },
+    {
+      "date": "2025-08-05",
+      "numbers": [
+        1,
+        3,
+        5,
+        42,
+        47
+      ],
+      "bonus": null,
+      "extra_numbers": [
+        5,
+        10
+      ],
+      "extra_label": "Lucky Stars",
+      "jackpot": 156693569,
+      "rollover": false,
+      "source_url": "https://www.national-lottery.co.uk/results/euromillions/draw-history/draw-details/1865"
+    },
+    {
+      "date": "2025-08-01",
+      "numbers": [
+        4,
+        16,
+        25,
+        29,
+        30
+      ],
+      "bonus": null,
+      "extra_numbers": [
+        2,
+        10
+      ],
+      "extra_label": "Lucky Stars",
+      "jackpot": 145228808,
+      "rollover": false,
+      "source_url": "https://www.national-lottery.co.uk/results/euromillions/draw-history/draw-details/1864"
+    },
+    {
+      "date": "2025-07-29",
+      "numbers": [
+        5,
+        6,
+        42,
+        44,
+        46
+      ],
+      "bonus": null,
+      "extra_numbers": [
+        4,
+        8
+      ],
+      "extra_label": "Lucky Stars",
+      "jackpot": 130116570,
+      "rollover": false,
+      "source_url": "https://www.national-lottery.co.uk/results/euromillions/draw-history/draw-details/1863"
+    },
+    {
+      "date": "2025-07-25",
+      "numbers": [
+        6,
+        7,
+        23,
+        32,
+        36
+      ],
+      "bonus": null,
+      "extra_numbers": [
+        11,
+        12
+      ],
+      "extra_label": "Lucky Stars",
+      "jackpot": 120532068,
+      "rollover": false,
+      "source_url": "https://www.national-lottery.co.uk/results/euromillions/draw-history/draw-details/1862"
+    },
+    {
+      "date": "2025-07-22",
+      "numbers": [
+        8,
+        15,
+        26,
+        33,
+        41
+      ],
+      "bonus": null,
+      "extra_numbers": [
+        9,
+        10
+      ],
+      "extra_label": "Lucky Stars",
+      "jackpot": 107138894,
+      "rollover": false,
+      "source_url": "https://www.national-lottery.co.uk/results/euromillions/draw-history/draw-details/1861"
+    },
+    {
+      "date": "2025-07-18",
+      "numbers": [
+        13,
+        19,
+        25,
+        42,
+        45
+      ],
+      "bonus": null,
+      "extra_numbers": [
+        2,
+        9
+      ],
+      "extra_label": "Lucky Stars",
+      "jackpot": 96797541,
+      "rollover": false,
+      "source_url": "https://www.national-lottery.co.uk/results/euromillions/draw-history/draw-details/1860"
+    },
+    {
+      "date": "2025-07-15",
+      "numbers": [
+        24,
+        38,
+        41,
+        45,
+        49
+      ],
+      "bonus": null,
+      "extra_numbers": [
+        1,
+        6
+      ],
+      "extra_label": "Lucky Stars",
+      "jackpot": 84014945,
+      "rollover": false,
+      "source_url": "https://www.national-lottery.co.uk/results/euromillions/draw-history/draw-details/1859"
+    },
+    {
+      "date": "2025-07-11",
+      "numbers": [
+        8,
+        23,
+        24,
+        45,
+        49
+      ],
+      "bonus": null,
+      "extra_numbers": [
+        2,
+        10
+      ],
+      "extra_label": "Lucky Stars",
+      "jackpot": 75185800,
+      "rollover": false,
+      "source_url": "https://www.national-lottery.co.uk/results/euromillions/draw-history/draw-details/1858"
+    },
+    {
+      "date": "2025-07-08",
+      "numbers": [
+        1,
+        8,
+        9,
+        18,
+        50
+      ],
+      "bonus": null,
+      "extra_numbers": [
+        1,
+        5
+      ],
+      "extra_label": "Lucky Stars",
+      "jackpot": 64367280,
+      "rollover": false,
+      "source_url": "https://www.national-lottery.co.uk/results/euromillions/draw-history/draw-details/1857"
+    },
+    {
+      "date": "2025-07-04",
+      "numbers": [
+        19,
+        29,
+        42,
+        45,
+        48
+      ],
+      "bonus": null,
+      "extra_numbers": [
+        5,
+        7
+      ],
+      "extra_label": "Lucky Stars",
+      "jackpot": 56006015,
+      "rollover": false,
+      "source_url": "https://www.national-lottery.co.uk/results/euromillions/draw-history/draw-details/1856"
+    },
+    {
+      "date": "2025-07-01",
+      "numbers": [
+        1,
+        17,
+        28,
+        32,
+        34
+      ],
+      "bonus": null,
+      "extra_numbers": [
+        7,
+        8
+      ],
+      "extra_label": "Lucky Stars",
+      "jackpot": 43818269,
+      "rollover": false,
+      "source_url": "https://www.national-lottery.co.uk/results/euromillions/draw-history/draw-details/1855"
+    },
+    {
+      "date": "2025-06-27",
+      "numbers": [
+        19,
+        27,
+        36,
+        45,
+        49
+      ],
+      "bonus": null,
+      "extra_numbers": [
+        7,
+        10
+      ],
+      "extra_label": "Lucky Stars",
+      "jackpot": 34475868,
+      "rollover": false,
+      "source_url": "https://www.national-lottery.co.uk/results/euromillions/draw-history/draw-details/1854"
+    },
+    {
+      "date": "2025-06-24",
+      "numbers": [
+        7,
+        16,
+        21,
+        23,
+        39
+      ],
+      "bonus": null,
+      "extra_numbers": [
+        7,
+        11
+      ],
+      "extra_label": "Lucky Stars",
+      "jackpot": 22994509,
+      "rollover": false,
+      "source_url": "https://www.national-lottery.co.uk/results/euromillions/draw-history/draw-details/1853"
+    },
+    {
+      "date": "2025-06-20",
+      "numbers": [
+        5,
+        8,
+        24,
+        37,
+        47
+      ],
+      "bonus": null,
+      "extra_numbers": [
+        3,
+        9
+      ],
+      "extra_label": "Lucky Stars",
+      "jackpot": 14569000,
+      "rollover": false,
+      "source_url": "https://www.national-lottery.co.uk/results/euromillions/draw-history/draw-details/1852"
+    },
+    {
+      "date": "2025-06-17",
+      "numbers": [
+        13,
+        22,
+        23,
+        44,
+        49
+      ],
+      "bonus": null,
+      "extra_numbers": [
+        3,
+        5
+      ],
+      "extra_label": "Lucky Stars",
+      "jackpot": 213650000,
+      "rollover": false,
+      "source_url": "https://www.national-lottery.co.uk/results/euromillions/draw-history/draw-details/1851"
+    },
+    {
+      "date": "2025-06-13",
+      "numbers": [
+        2,
+        28,
+        40,
+        43,
+        45
+      ],
+      "bonus": null,
+      "extra_numbers": [
+        3,
+        7
+      ],
+      "extra_label": "Lucky Stars",
+      "jackpot": 212575000,
+      "rollover": false,
+      "source_url": "https://www.national-lottery.co.uk/results/euromillions/draw-history/draw-details/1850"
+    },
+    {
+      "date": "2025-06-10",
+      "numbers": [
+        19,
+        36,
+        39,
+        40,
+        45
+      ],
+      "bonus": null,
+      "extra_numbers": [
+        5,
+        6
+      ],
+      "extra_label": "Lucky Stars",
+      "jackpot": 211875000,
+      "rollover": false,
+      "source_url": "https://www.national-lottery.co.uk/results/euromillions/draw-history/draw-details/1849"
+    },
+    {
+      "date": "2025-06-06",
+      "numbers": [
+        20,
+        21,
+        29,
+        30,
+        35
+      ],
+      "bonus": null,
+      "extra_numbers": [
+        2,
+        12
+      ],
+      "extra_label": "Lucky Stars",
+      "jackpot": 210775000,
+      "rollover": false,
+      "source_url": "https://www.national-lottery.co.uk/results/euromillions/draw-history/draw-details/1848"
+    },
+    {
+      "date": "2025-06-03",
+      "numbers": [
+        12,
+        15,
+        38,
+        47,
+        48
+      ],
+      "bonus": null,
+      "extra_numbers": [
+        5,
+        7
+      ],
+      "extra_label": "Lucky Stars",
+      "jackpot": 201083864,
+      "rollover": false,
+      "source_url": "https://www.national-lottery.co.uk/results/euromillions/draw-history/draw-details/1847"
+    },
+    {
+      "date": "2025-05-30",
+      "numbers": [
+        4,
+        7,
+        14,
+        33,
+        36
+      ],
+      "bonus": null,
+      "extra_numbers": [
+        1,
+        5
+      ],
+      "extra_label": "Lucky Stars",
+      "jackpot": 184193289,
+      "rollover": false,
+      "source_url": "https://www.national-lottery.co.uk/results/euromillions/draw-history/draw-details/1846"
+    },
+    {
+      "date": "2025-05-27",
+      "numbers": [
+        12,
+        30,
+        38,
+        40,
+        41
+      ],
+      "bonus": null,
+      "extra_numbers": [
+        4,
+        12
+      ],
+      "extra_label": "Lucky Stars",
+      "jackpot": 166329474,
+      "rollover": false,
+      "source_url": "https://www.national-lottery.co.uk/results/euromillions/draw-history/draw-details/1845"
+    },
+    {
+      "date": "2025-05-23",
+      "numbers": [
+        10,
+        29,
+        43,
+        46,
+        49
+      ],
+      "bonus": null,
+      "extra_numbers": [
+        7,
+        12
+      ],
+      "extra_label": "Lucky Stars",
+      "jackpot": 153225546,
+      "rollover": false,
+      "source_url": "https://www.national-lottery.co.uk/results/euromillions/draw-history/draw-details/1844"
+    },
+    {
+      "date": "2025-05-20",
+      "numbers": [
+        1,
+        8,
+        13,
+        29,
+        47
+      ],
+      "bonus": null,
+      "extra_numbers": [
+        5,
+        6
+      ],
+      "extra_label": "Lucky Stars",
+      "jackpot": 139135511,
+      "rollover": false,
+      "source_url": "https://www.national-lottery.co.uk/results/euromillions/draw-history/draw-details/1843"
+    },
+    {
+      "date": "2025-05-16",
+      "numbers": [
+        6,
+        9,
+        25,
+        37,
+        46
+      ],
+      "bonus": null,
+      "extra_numbers": [
+        6,
+        12
+      ],
+      "extra_label": "Lucky Stars",
+      "jackpot": 127273727,
+      "rollover": false,
+      "source_url": "https://www.national-lottery.co.uk/results/euromillions/draw-history/draw-details/1842"
+    },
+    {
+      "date": "2025-05-13",
+      "numbers": [
+        9,
+        19,
+        44,
+        47,
+        50
+      ],
+      "bonus": null,
+      "extra_numbers": [
+        2,
+        9
+      ],
+      "extra_label": "Lucky Stars",
+      "jackpot": 113923081,
+      "rollover": false,
+      "source_url": "https://www.national-lottery.co.uk/results/euromillions/draw-history/draw-details/1841"
+    },
+    {
+      "date": "2025-05-09",
+      "numbers": [
+        15,
+        18,
+        25,
+        29,
+        47
+      ],
+      "bonus": null,
+      "extra_numbers": [
+        5,
+        9
+      ],
+      "extra_label": "Lucky Stars",
+      "jackpot": 104104433,
+      "rollover": false,
+      "source_url": "https://www.national-lottery.co.uk/results/euromillions/draw-history/draw-details/1840"
+    },
+    {
+      "date": "2025-05-06",
+      "numbers": [
+        8,
+        23,
+        24,
+        47,
+        48
+      ],
+      "bonus": null,
+      "extra_numbers": [
+        4,
+        9
+      ],
+      "extra_label": "Lucky Stars",
+      "jackpot": 92054251,
+      "rollover": false,
+      "source_url": "https://www.national-lottery.co.uk/results/euromillions/draw-history/draw-details/1839"
+    },
+    {
+      "date": "2025-05-02",
+      "numbers": [
+        3,
+        5,
+        19,
+        21,
+        49
+      ],
+      "bonus": null,
+      "extra_numbers": [
+        1,
+        10
+      ],
+      "extra_label": "Lucky Stars",
+      "jackpot": 82880184,
+      "rollover": false,
+      "source_url": "https://www.national-lottery.co.uk/results/euromillions/draw-history/draw-details/1838"
+    },
+    {
+      "date": "2025-04-29",
+      "numbers": [
+        2,
+        9,
+        24,
+        30,
+        41
+      ],
+      "bonus": null,
+      "extra_numbers": [
+        1,
+        11
+      ],
+      "extra_label": "Lucky Stars",
+      "jackpot": 71243649,
+      "rollover": false,
+      "source_url": "https://www.national-lottery.co.uk/results/euromillions/draw-history/draw-details/1837"
+    },
+    {
+      "date": "2025-04-25",
+      "numbers": [
+        13,
+        22,
+        32,
+        39,
+        41
+      ],
+      "bonus": null,
+      "extra_numbers": [
+        1,
+        12
+      ],
+      "extra_label": "Lucky Stars",
+      "jackpot": 63560012,
+      "rollover": false,
+      "source_url": "https://www.national-lottery.co.uk/results/euromillions/draw-history/draw-details/1836"
+    },
+    {
+      "date": "2025-04-22",
+      "numbers": [
+        7,
+        28,
+        33,
+        37,
+        47
+      ],
+      "bonus": null,
+      "extra_numbers": [
+        9,
+        12
+      ],
+      "extra_label": "Lucky Stars",
+      "jackpot": 53570179,
+      "rollover": false,
+      "source_url": "https://www.national-lottery.co.uk/results/euromillions/draw-history/draw-details/1835"
+    },
+    {
+      "date": "2025-04-18",
+      "numbers": [
+        20,
+        27,
+        35,
+        39,
+        48
+      ],
+      "bonus": null,
+      "extra_numbers": [
+        3,
+        8
+      ],
+      "extra_label": "Lucky Stars",
+      "jackpot": 45027369,
+      "rollover": false,
+      "source_url": "https://www.national-lottery.co.uk/results/euromillions/draw-history/draw-details/1834"
+    },
+    {
+      "date": "2025-04-15",
+      "numbers": [
+        3,
+        31,
+        33,
+        38,
+        44
+      ],
+      "bonus": null,
+      "extra_numbers": [
+        6,
+        12
+      ],
+      "extra_label": "Lucky Stars",
+      "jackpot": 33794376,
+      "rollover": false,
+      "source_url": "https://www.national-lottery.co.uk/results/euromillions/draw-history/draw-details/1833"
+    },
+    {
+      "date": "2025-04-11",
+      "numbers": [
+        14,
+        28,
+        34,
+        46,
+        49
+      ],
+      "bonus": null,
+      "extra_numbers": [
+        3,
+        8
+      ],
+      "extra_label": "Lucky Stars",
+      "jackpot": 25709199,
+      "rollover": false,
+      "source_url": "https://www.national-lottery.co.uk/results/euromillions/draw-history/draw-details/1832"
+    },
+    {
+      "date": "2025-04-08",
+      "numbers": [
+        3,
+        14,
+        15,
+        48,
+        49
+      ],
+      "bonus": null,
+      "extra_numbers": [
+        1,
+        7
+      ],
+      "extra_label": "Lucky Stars",
+      "jackpot": 14594500,
+      "rollover": false,
+      "source_url": "https://www.national-lottery.co.uk/results/euromillions/draw-history/draw-details/1831"
+    },
+    {
+      "date": "2025-04-04",
+      "numbers": [
+        27,
+        39,
+        41,
+        45,
+        50
+      ],
+      "bonus": null,
+      "extra_numbers": [
+        5,
+        7
+      ],
+      "extra_label": "Lucky Stars",
+      "jackpot": 25602915,
+      "rollover": false,
+      "source_url": "https://www.national-lottery.co.uk/results/euromillions/draw-history/draw-details/1830"
+    },
+    {
+      "date": "2025-04-01",
+      "numbers": [
+        9,
+        24,
+        30,
+        46,
+        49
+      ],
+      "bonus": null,
+      "extra_numbers": [
+        4,
+        12
+      ],
+      "extra_label": "Lucky Stars",
+      "jackpot": 14213700,
+      "rollover": false,
+      "source_url": "https://www.national-lottery.co.uk/results/euromillions/draw-history/draw-details/1829"
+    },
+    {
+      "date": "2025-03-28",
+      "numbers": [
+        10,
+        21,
+        30,
+        42,
+        45
+      ],
+      "bonus": null,
+      "extra_numbers": [
+        1,
+        9
+      ],
+      "extra_label": "Lucky Stars",
+      "jackpot": 209300000,
+      "rollover": false,
+      "source_url": "https://www.national-lottery.co.uk/results/euromillions/draw-history/draw-details/1828"
+    },
+    {
+      "date": "2025-03-25",
+      "numbers": [
+        1,
+        3,
+        18,
+        33,
+        36
+      ],
+      "bonus": null,
+      "extra_numbers": [
+        2,
+        6
+      ],
+      "extra_label": "Lucky Stars",
+      "jackpot": 183946479,
+      "rollover": false,
+      "source_url": "https://www.national-lottery.co.uk/results/euromillions/draw-history/draw-details/1827"
     }
   ]
 }

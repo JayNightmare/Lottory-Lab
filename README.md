@@ -21,7 +21,7 @@ pnpm dev
 
 ## Data pipeline
 
-JSON files live in `/data`. `scripts/validate-data.ts` enforces the schema defined in the project brief. `scripts/harvest-results.ts` expects per-game source URLs supplied through environment variables (for example `LOTTERY_LAB_UK_LOTTO_URL`). The scheduled workflow `harvest-results.yml` installs dependencies, runs the harvest script, validates JSON, and commits changes when files differ.
+JSON files live in `/data`. `scripts/validate-data.ts` enforces the schema defined in the project brief. `scripts/harvest-results.ts` fetches live draw history from the National Lottery website with Cheerio, normalises the output, and writes updates only when something changes. The scheduled workflow `harvest-results.yml` installs dependencies, runs the harvest script, validates JSON, and commits changes when files differ.
 
 ## GitHub Pages deployment
 
@@ -39,8 +39,10 @@ Key environment variables consumed during automation:
 
 - `SITE_URL` - full canonical site URL (set in the Pages workflow).
 - `BASE_PATH` - GitHub Pages base path (defaults to `/lottery-lab`).
-- `LOTTERY_LAB_<GAME>_URL` - optional JSON endpoint for scheduled harvests.
 
 ## Legal and responsible play
 
 Copies of official results should always be verified via the National Lottery. The site refrains from claims about improved odds and provides direct links to UK responsible-play organisations.
+
+
+

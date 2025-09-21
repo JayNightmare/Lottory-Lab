@@ -6,6 +6,8 @@ const drawSchema = z.object({
   date: z.string().regex(/^\d{4}-\d{2}-\d{2}$/),
   numbers: z.array(z.number().int().nonnegative()),
   bonus: z.number().int().nonnegative().nullable().optional(),
+  extra_numbers: z.array(z.number().int().nonnegative()).optional(),
+  extra_label: z.string().optional(),
   jackpot: z.number().int().nonnegative().optional(),
   rollover: z.boolean().optional(),
   source_url: z.string().url().optional()

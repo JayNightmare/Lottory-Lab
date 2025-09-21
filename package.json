@@ -1,7 +1,7 @@
-{
+﻿{
   "name": "lottery-lab",
   "version": "0.1.0",
-  "description": "Lottery Lab – static Astro site with client-side tools for lottery analysis.",
+  "description": "Lottery Lab - static Astro site with client-side tools for lottery analysis.",
   "type": "module",
   "scripts": {
     "dev": "astro dev",
@@ -29,6 +29,7 @@
     "@astrojs/react": "^3.0.0",
     "@astrojs/sitemap": "^3.0.0",
     "astro": "^4.0.0",
+    "cheerio": "^1.0.0",
     "classnames": "^2.3.2",
     "marked": "^9.0.0",
     "react": "^18.3.0",

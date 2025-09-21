@@ -1,22 +1,786 @@
 {
   "game": "uk_lotto",
-  "last_updated_utc": "2025-09-21T00:00:00Z",
+  "last_updated_utc": "2025-09-21T01:30:14.126Z",
   "draws": [
     {
-      "date": "2025-09-18",
-      "numbers": [3, 9, 14, 27, 31, 45],
-      "bonus": 12,
-      "jackpot": 7200000,
-      "rollover": true,
-      "source_url": "https://www.national-lottery.co.uk/results/lotto/draw-history"
+      "date": "2025-09-20",
+      "numbers": [
+        13,
+        16,
+        30,
+        36,
+        53,
+        59
+      ],
+      "bonus": 22,
+      "jackpot": 3800000,
+      "rollover": false,
+      "source_url": "https://www.national-lottery.co.uk/results/lotto/draw-history/draw-details/3104"
     },
     {
-      "date": "2025-09-14",
-      "numbers": [4, 18, 22, 28, 39, 52],
-      "bonus": 7,
-      "jackpot": 4100000,
+      "date": "2025-09-17",
+      "numbers": [
+        7,
+        9,
+        18,
+        24,
+        30,
+        36
+      ],
+      "bonus": 42,
+      "jackpot": 4000000,
       "rollover": false,
-      "source_url": "https://www.national-lottery.co.uk/results/lotto/draw-history"
+      "source_url": "https://www.national-lottery.co.uk/results/lotto/draw-history/draw-details/3103"
+    },
+    {
+      "date": "2025-09-13",
+      "numbers": [
+        1,
+        26,
+        36,
+        49,
+        53,
+        54
+      ],
+      "bonus": 10,
+      "jackpot": 15000000,
+      "rollover": false,
+      "source_url": "https://www.national-lottery.co.uk/results/lotto/draw-history/draw-details/3102"
+    },
+    {
+      "date": "2025-09-10",
+      "numbers": [
+        1,
+        9,
+        18,
+        27,
+        38,
+        42
+      ],
+      "bonus": 13,
+      "jackpot": 8430747,
+      "rollover": false,
+      "source_url": "https://www.national-lottery.co.uk/results/lotto/draw-history/draw-details/3101"
+    },
+    {
+      "date": "2025-09-06",
+      "numbers": [
+        10,
+        22,
+        37,
+        40,
+        45,
+        57
+      ],
+      "bonus": 24,
+      "jackpot": 7082906,
+      "rollover": false,
+      "source_url": "https://www.national-lottery.co.uk/results/lotto/draw-history/draw-details/3100"
+    },
+    {
+      "date": "2025-09-03",
+      "numbers": [
+        7,
+        15,
+        18,
+        22,
+        31,
+        54
+      ],
+      "bonus": 28,
+      "jackpot": 5063522,
+      "rollover": false,
+      "source_url": "https://www.national-lottery.co.uk/results/lotto/draw-history/draw-details/3099"
+    },
+    {
+      "date": "2025-08-30",
+      "numbers": [
+        6,
+        10,
+        19,
+        20,
+        43,
+        59
+      ],
+      "bonus": 16,
+      "jackpot": 3800000,
+      "rollover": false,
+      "source_url": "https://www.national-lottery.co.uk/results/lotto/draw-history/draw-details/3098"
+    },
+    {
+      "date": "2025-08-27",
+      "numbers": [
+        5,
+        25,
+        43,
+        45,
+        47,
+        55
+      ],
+      "bonus": 58,
+      "jackpot": 8655122,
+      "rollover": false,
+      "source_url": "https://www.national-lottery.co.uk/results/lotto/draw-history/draw-details/3097"
+    },
+    {
+      "date": "2025-08-23",
+      "numbers": [
+        7,
+        30,
+        38,
+        42,
+        54,
+        59
+      ],
+      "bonus": 5,
+      "jackpot": 7265037,
+      "rollover": false,
+      "source_url": "https://www.national-lottery.co.uk/results/lotto/draw-history/draw-details/3096"
+    },
+    {
+      "date": "2025-08-20",
+      "numbers": [
+        1,
+        9,
+        10,
+        32,
+        44,
+        55
+      ],
+      "bonus": 49,
+      "jackpot": 5208913,
+      "rollover": false,
+      "source_url": "https://www.national-lottery.co.uk/results/lotto/draw-history/draw-details/3095"
+    },
+    {
+      "date": "2025-08-16",
+      "numbers": [
+        1,
+        11,
+        15,
+        19,
+        45,
+        48
+      ],
+      "bonus": 37,
+      "jackpot": 3899678,
+      "rollover": false,
+      "source_url": "https://www.national-lottery.co.uk/results/lotto/draw-history/draw-details/3094"
+    },
+    {
+      "date": "2025-08-13",
+      "numbers": [
+        1,
+        16,
+        27,
+        41,
+        50,
+        55
+      ],
+      "bonus": 54,
+      "jackpot": 2000000,
+      "rollover": false,
+      "source_url": "https://www.national-lottery.co.uk/results/lotto/draw-history/draw-details/3093"
+    },
+    {
+      "date": "2025-08-09",
+      "numbers": [
+        2,
+        27,
+        29,
+        38,
+        44,
+        51
+      ],
+      "bonus": 23,
+      "jackpot": 7394521,
+      "rollover": false,
+      "source_url": "https://www.national-lottery.co.uk/results/lotto/draw-history/draw-details/3092"
+    },
+    {
+      "date": "2025-08-06",
+      "numbers": [
+        5,
+        9,
+        17,
+        31,
+        47,
+        58
+      ],
+      "bonus": 35,
+      "jackpot": 5302085,
+      "rollover": false,
+      "source_url": "https://www.national-lottery.co.uk/results/lotto/draw-history/draw-details/3091"
+    },
+    {
+      "date": "2025-08-02",
+      "numbers": [
+        1,
+        5,
+        10,
+        30,
+        33,
+        50
+      ],
+      "bonus": 56,
+      "jackpot": 4007837,
+      "rollover": false,
+      "source_url": "https://www.national-lottery.co.uk/results/lotto/draw-history/draw-details/3090"
+    },
+    {
+      "date": "2025-07-30",
+      "numbers": [
+        3,
+        5,
+        7,
+        18,
+        21,
+        37
+      ],
+      "bonus": 38,
+      "jackpot": 2000000,
+      "rollover": false,
+      "source_url": "https://www.national-lottery.co.uk/results/lotto/draw-history/draw-details/3089"
+    },
+    {
+      "date": "2025-07-26",
+      "numbers": [
+        9,
+        23,
+        24,
+        28,
+        42,
+        57
+      ],
+      "bonus": 18,
+      "jackpot": 11438016,
+      "rollover": false,
+      "source_url": "https://www.national-lottery.co.uk/results/lotto/draw-history/draw-details/3088"
+    },
+    {
+      "date": "2025-07-23",
+      "numbers": [
+        3,
+        9,
+        11,
+        16,
+        21,
+        48
+      ],
+      "bonus": 22,
+      "jackpot": 8735166,
+      "rollover": false,
+      "source_url": "https://www.national-lottery.co.uk/results/lotto/draw-history/draw-details/3087"
+    },
+    {
+      "date": "2025-07-19",
+      "numbers": [
+        5,
+        7,
+        25,
+        29,
+        40,
+        46
+      ],
+      "bonus": 15,
+      "jackpot": 7298768,
+      "rollover": false,
+      "source_url": "https://www.national-lottery.co.uk/results/lotto/draw-history/draw-details/3086"
+    },
+    {
+      "date": "2025-07-16",
+      "numbers": [
+        6,
+        9,
+        12,
+        15,
+        47,
+        55
+      ],
+      "bonus": 56,
+      "jackpot": 5218941,
+      "rollover": false,
+      "source_url": "https://www.national-lottery.co.uk/results/lotto/draw-history/draw-details/3085"
+    },
+    {
+      "date": "2025-07-12",
+      "numbers": [
+        4,
+        11,
+        17,
+        25,
+        41,
+        51
+      ],
+      "bonus": 14,
+      "jackpot": 3925025,
+      "rollover": false,
+      "source_url": "https://www.national-lottery.co.uk/results/lotto/draw-history/draw-details/3084"
+    },
+    {
+      "date": "2025-07-09",
+      "numbers": [
+        6,
+        12,
+        15,
+        25,
+        51,
+        58
+      ],
+      "bonus": 57,
+      "jackpot": 2000000,
+      "rollover": false,
+      "source_url": "https://www.national-lottery.co.uk/results/lotto/draw-history/draw-details/3083"
+    },
+    {
+      "date": "2025-07-05",
+      "numbers": [
+        9,
+        12,
+        18,
+        37,
+        43,
+        45
+      ],
+      "bonus": 15,
+      "jackpot": 15000000,
+      "rollover": false,
+      "source_url": "https://www.national-lottery.co.uk/results/lotto/draw-history/draw-details/3082"
+    },
+    {
+      "date": "2025-07-02",
+      "numbers": [
+        4,
+        11,
+        34,
+        51,
+        54,
+        55
+      ],
+      "bonus": 57,
+      "jackpot": 8434748,
+      "rollover": false,
+      "source_url": "https://www.national-lottery.co.uk/results/lotto/draw-history/draw-details/3081"
+    },
+    {
+      "date": "2025-06-28",
+      "numbers": [
+        16,
+        17,
+        22,
+        38,
+        40,
+        47
+      ],
+      "bonus": 4,
+      "jackpot": 7088541,
+      "rollover": false,
+      "source_url": "https://www.national-lottery.co.uk/results/lotto/draw-history/draw-details/3080"
+    },
+    {
+      "date": "2025-06-25",
+      "numbers": [
+        14,
+        16,
+        21,
+        42,
+        49,
+        54
+      ],
+      "bonus": 41,
+      "jackpot": 5080097,
+      "rollover": false,
+      "source_url": "https://www.national-lottery.co.uk/results/lotto/draw-history/draw-details/3079"
+    },
+    {
+      "date": "2025-06-21",
+      "numbers": [
+        6,
+        10,
+        12,
+        13,
+        31,
+        58
+      ],
+      "bonus": 15,
+      "jackpot": 3800000,
+      "rollover": false,
+      "source_url": "https://www.national-lottery.co.uk/results/lotto/draw-history/draw-details/3078"
+    },
+    {
+      "date": "2025-06-18",
+      "numbers": [
+        8,
+        15,
+        31,
+        38,
+        44,
+        49
+      ],
+      "bonus": 59,
+      "jackpot": 5259007,
+      "rollover": false,
+      "source_url": "https://www.national-lottery.co.uk/results/lotto/draw-history/draw-details/3077"
+    },
+    {
+      "date": "2025-06-14",
+      "numbers": [
+        8,
+        20,
+        36,
+        42,
+        48,
+        59
+      ],
+      "bonus": 46,
+      "jackpot": 3967860,
+      "rollover": false,
+      "source_url": "https://www.national-lottery.co.uk/results/lotto/draw-history/draw-details/3076"
+    },
+    {
+      "date": "2025-06-11",
+      "numbers": [
+        8,
+        13,
+        35,
+        42,
+        47,
+        53
+      ],
+      "bonus": 39,
+      "jackpot": 2000000,
+      "rollover": false,
+      "source_url": "https://www.national-lottery.co.uk/results/lotto/draw-history/draw-details/3075"
+    },
+    {
+      "date": "2025-06-07",
+      "numbers": [
+        11,
+        17,
+        27,
+        30,
+        39,
+        46
+      ],
+      "bonus": 56,
+      "jackpot": 4003513,
+      "rollover": false,
+      "source_url": "https://www.national-lottery.co.uk/results/lotto/draw-history/draw-details/3074"
+    },
+    {
+      "date": "2025-06-04",
+      "numbers": [
+        2,
+        9,
+        19,
+        32,
+        45,
+        57
+      ],
+      "bonus": 31,
+      "jackpot": 2000000,
+      "rollover": false,
+      "source_url": "https://www.national-lottery.co.uk/results/lotto/draw-history/draw-details/3073"
+    },
+    {
+      "date": "2025-05-31",
+      "numbers": [
+        8,
+        11,
+        12,
+        16,
+        20,
+        33
+      ],
+      "bonus": 52,
+      "jackpot": 3966543,
+      "rollover": false,
+      "source_url": "https://www.national-lottery.co.uk/results/lotto/draw-history/draw-details/3072"
+    },
+    {
+      "date": "2025-05-28",
+      "numbers": [
+        8,
+        28,
+        31,
+        33,
+        49,
+        55
+      ],
+      "bonus": 13,
+      "jackpot": 2000000,
+      "rollover": false,
+      "source_url": "https://www.national-lottery.co.uk/results/lotto/draw-history/draw-details/3071"
+    },
+    {
+      "date": "2025-05-24",
+      "numbers": [
+        9,
+        12,
+        13,
+        26,
+        38,
+        40
+      ],
+      "bonus": 4,
+      "jackpot": 3800000,
+      "rollover": false,
+      "source_url": "https://www.national-lottery.co.uk/results/lotto/draw-history/draw-details/3070"
+    },
+    {
+      "date": "2025-05-21",
+      "numbers": [
+        5,
+        6,
+        16,
+        20,
+        30,
+        36
+      ],
+      "bonus": 2,
+      "jackpot": 2000000,
+      "rollover": false,
+      "source_url": "https://www.national-lottery.co.uk/results/lotto/draw-history/draw-details/3069"
+    },
+    {
+      "date": "2025-05-17",
+      "numbers": [
+        18,
+        24,
+        34,
+        35,
+        47,
+        51
+      ],
+      "bonus": 26,
+      "jackpot": 11343776,
+      "rollover": false,
+      "source_url": "https://www.national-lottery.co.uk/results/lotto/draw-history/draw-details/3068"
+    },
+    {
+      "date": "2025-05-14",
+      "numbers": [
+        2,
+        14,
+        34,
+        37,
+        48,
+        52
+      ],
+      "bonus": 29,
+      "jackpot": 8729961,
+      "rollover": false,
+      "source_url": "https://www.national-lottery.co.uk/results/lotto/draw-history/draw-details/3067"
+    },
+    {
+      "date": "2025-05-10",
+      "numbers": [
+        13,
+        14,
+        15,
+        27,
+        33,
+        36
+      ],
+      "bonus": 18,
+      "jackpot": 7285879,
+      "rollover": false,
+      "source_url": "https://www.national-lottery.co.uk/results/lotto/draw-history/draw-details/3066"
+    },
+    {
+      "date": "2025-05-07",
+      "numbers": [
+        3,
+        12,
+        21,
+        24,
+        41,
+        45
+      ],
+      "bonus": 20,
+      "jackpot": 5216859,
+      "rollover": false,
+      "source_url": "https://www.national-lottery.co.uk/results/lotto/draw-history/draw-details/3065"
+    },
+    {
+      "date": "2025-05-03",
+      "numbers": [
+        17,
+        18,
+        23,
+        38,
+        41,
+        47
+      ],
+      "bonus": 9,
+      "jackpot": 3951589,
+      "rollover": false,
+      "source_url": "https://www.national-lottery.co.uk/results/lotto/draw-history/draw-details/3064"
+    },
+    {
+      "date": "2025-04-30",
+      "numbers": [
+        16,
+        23,
+        28,
+        40,
+        42,
+        55
+      ],
+      "bonus": 44,
+      "jackpot": 2000000,
+      "rollover": false,
+      "source_url": "https://www.national-lottery.co.uk/results/lotto/draw-history/draw-details/3063"
+    },
+    {
+      "date": "2025-04-26",
+      "numbers": [
+        7,
+        8,
+        11,
+        32,
+        36,
+        59
+      ],
+      "bonus": 21,
+      "jackpot": 3989857,
+      "rollover": false,
+      "source_url": "https://www.national-lottery.co.uk/results/lotto/draw-history/draw-details/3062"
+    },
+    {
+      "date": "2025-04-23",
+      "numbers": [
+        1,
+        24,
+        26,
+        28,
+        37,
+        42
+      ],
+      "bonus": 44,
+      "jackpot": 2000000,
+      "rollover": false,
+      "source_url": "https://www.national-lottery.co.uk/results/lotto/draw-history/draw-details/3061"
+    },
+    {
+      "date": "2025-04-19",
+      "numbers": [
+        1,
+        2,
+        11,
+        13,
+        30,
+        37
+      ],
+      "bonus": 33,
+      "jackpot": 15000000,
+      "rollover": false,
+      "source_url": "https://www.national-lottery.co.uk/results/lotto/draw-history/draw-details/3060"
+    },
+    {
+      "date": "2025-04-16",
+      "numbers": [
+        27,
+        36,
+        39,
+        48,
+        57,
+        59
+      ],
+      "bonus": 45,
+      "jackpot": 5208504,
+      "rollover": false,
+      "source_url": "https://www.national-lottery.co.uk/results/lotto/draw-history/draw-details/3059"
+    },
+    {
+      "date": "2025-04-12",
+      "numbers": [
+        4,
+        10,
+        12,
+        22,
+        53,
+        55
+      ],
+      "bonus": 31,
+      "jackpot": 3926411,
+      "rollover": false,
+      "source_url": "https://www.national-lottery.co.uk/results/lotto/draw-history/draw-details/3058"
+    },
+    {
+      "date": "2025-04-09",
+      "numbers": [
+        12,
+        14,
+        28,
+        31,
+        33,
+        46
+      ],
+      "bonus": 43,
+      "jackpot": 2000000,
+      "rollover": false,
+      "source_url": "https://www.national-lottery.co.uk/results/lotto/draw-history/draw-details/3057"
+    },
+    {
+      "date": "2025-04-05",
+      "numbers": [
+        10,
+        26,
+        33,
+        53,
+        57,
+        59
+      ],
+      "bonus": 18,
+      "jackpot": 7335269,
+      "rollover": false,
+      "source_url": "https://www.national-lottery.co.uk/results/lotto/draw-history/draw-details/3056"
+    },
+    {
+      "date": "2025-04-02",
+      "numbers": [
+        5,
+        30,
+        36,
+        40,
+        41,
+        43
+      ],
+      "bonus": 53,
+      "jackpot": 5297193,
+      "rollover": false,
+      "source_url": "https://www.national-lottery.co.uk/results/lotto/draw-history/draw-details/3055"
+    },
+    {
+      "date": "2025-03-29",
+      "numbers": [
+        1,
+        7,
+        17,
+        35,
+        43,
+        57
+      ],
+      "bonus": 19,
+      "jackpot": 4012978,
+      "rollover": false,
+      "source_url": "https://www.national-lottery.co.uk/results/lotto/draw-history/draw-details/3054"
+    },
+    {
+      "date": "2025-03-26",
+      "numbers": [
+        17,
+        18,
+        22,
+        34,
+        53,
+        58
+      ],
+      "bonus": 14,
+      "jackpot": 2000000,
+      "rollover": false,
+      "source_url": "https://www.national-lottery.co.uk/results/lotto/draw-history/draw-details/3053"
     }
   ]
 }
