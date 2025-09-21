@@ -1,4 +1,4 @@
-import { useCallback, useEffect, useMemo, useState } from 'react';
+﻿import { useCallback, useEffect, useMemo, useState } from 'react';
 import { commitSeed, deriveNumbers, loadCommitment, persistCommitment, type Commitment, verifyCommit } from '@lib/rng';
 
 interface GameConfig {
@@ -19,6 +19,12 @@ interface GeneratedLine {
 }
 
 const birthdaySet = new Set(Array.from({ length: 31 }, (_, i) => i + 1));
+
+const extendSeed = (seed: string, value: number) => {
+  const suffix = value.toString(16);
+  const normalized = suffix.length % 2 === 0 ? suffix : `0${suffix}`;
+  return `${seed}${normalized}`;
+};
 
 const hasCommonPatterns = (numbers: number[]): boolean => {
   const sorted = [...numbers].sort((a, b) => a - b);
@@ -65,7 +71,7 @@ export function NumberGenerator() {
       if (avoidCommon) {
         let attempts = 0;
         while (hasCommonPatterns(nums) && attempts < 10) {
-          const jitterSeed = `${seed}${attempts}`;
+          const jitterSeed = extendSeed(seed, attempts);
           nums = await deriveNumbers(jitterSeed, config.picks, config.range[0], config.range[1]);
           attempts += 1;
         }
@@ -79,8 +85,8 @@ export function NumberGenerator() {
     if (!commitment) return;
     const newLines: GeneratedLine[] = [];
     for (let i = 0; i < linesRequested; i += 1) {
-      // Deterministic per line using counter suffix to keep verifiable.
-      const seeded = `${commitment.seed}${i}`;
+      // Deterministic per line using hex-suffixed counter keeps verification straightforward.
+      const seeded = extendSeed(commitment.seed, i);
       const numbers = await generateLine(seeded);
       newLines.push({ numbers });
     }
@@ -199,3 +205,4 @@ export function NumberGenerator() {
 }
 
 export default NumberGenerator;
+
